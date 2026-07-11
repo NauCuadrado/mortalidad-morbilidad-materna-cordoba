@@ -1,4 +1,6 @@
-# Continuo de morbilidad materna extrema y mortalidad materna en Córdoba, Colombia, 2015-2024
+# Mortalidad materna y morbilidad materna extrema en Córdoba, Colombia, 2015 a 2024
+
+*Artículo asociado: "Maternal mortality and extreme maternal morbidity in Córdoba, Colombia, 2015 to 2024".*
 
 Datos agregados y código de análisis para la reproducción de los resultados del estudio. Este repositorio contiene tablas de resultados agregadas y el código trazable; no incluye el manuscrito, sus versiones ni las referencias bibliográficas.
 
@@ -45,4 +47,4 @@ Depuración e ingesta (`process_sivigila.py`, `filtra_cordoba.py`, `dane_early_m
 
 ## Versión alineada con el envío a Public Health
 
-Las fuentes se separan estrictamente por función: DANE para la mortalidad poblacional (RMM, tendencia, comparación nacional, mapas, autocorrelación espacial y asociación con pobreza) y SIVIGILA para la morbilidad materna extrema, el índice de mortalidad y la clasificación retros
+Las fuentes se separan estrictamente por función: DANE para la mortalidad poblacional (RMM, tendencia, comparación nacional, mapas, autocorrelación espacial y asociación con pobre
