@@ -25,7 +25,7 @@ for var, cats in [
     ("grupo_edad", ["10-14","15-19","20-24","25-29","30-34","35-39","40-44","45+"]),
     ("regimen", ["Subsidiado","Contributivo","No asegurado","Excepcion","Especial","Indeterminado"]),
     ("area_residencia", ["Cabecera","Centro poblado","Rural disperso"]),
-    ("subregion", ["Medio Sinu","San Jorge","Sabanas","Alto Sinu","Costanera","Bajo Sinu"]),
+    ("subregion", ["Medio Sinu","San Jorge","Sabanas","Alto Sinu","Costanera","Bajo Sinu","Sin asignar"]),
     ("pertenencia_etnica", ["Otro/Ninguno","Indigena","Negro/Mulato/Afrocolombiano","ROM/Gitano","Raizal","Palenquero"]),
 ]:
     for c in cats:

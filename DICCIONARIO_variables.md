@@ -2,7 +2,7 @@
 
 Descripción de las columnas de las tablas agregadas de `data/`. Todas las tasas usan nacidos vivos del DANE como denominador.
 
-## `Caracterizacion_sociodemografica_MME_MM.csv`  (32 filas)
+## `Caracterizacion_sociodemografica_MME_MM.csv`  (33 filas)
 
 - `caracteristica` — variable sociodemográfica u obstétrica y categoría (edad, régimen, área, subregión, etnia, gestante al notificar, hospitalización).
 - `MME_evento549_n` — frecuencia en los casos de morbilidad materna extrema (evento 549; total 8 716).
