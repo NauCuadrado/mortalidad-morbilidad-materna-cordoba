@@ -1,0 +1,33 @@
+﻿caracteristica,MME_evento549_n,MME_pct,MM_evento550_n,MM_pct
+Edad mediana (RIC),25 (20-32),,27 (22-32),
+grupo_edad: 10-14,124,1.4,3,1.2
+grupo_edad: 15-19,1733,19.9,28,11.3
+grupo_edad: 20-24,2122,24.3,60,24.3
+grupo_edad: 25-29,1852,21.2,64,25.9
+grupo_edad: 30-34,1481,17.0,49,19.8
+grupo_edad: 35-39,1027,11.8,31,12.6
+grupo_edad: 40-44,350,4.0,11,4.5
+grupo_edad: 45+,27,0.3,1,0.4
+regimen: Subsidiado,7046,80.8,205,83.0
+regimen: Contributivo,1382,15.9,33,13.4
+regimen: No asegurado,138,1.6,7,2.8
+regimen: Excepcion,95,1.1,0,0.0
+regimen: Especial,44,0.5,1,0.4
+regimen: Indeterminado,11,0.1,1,0.4
+area_residencia: Cabecera,5049,57.9,150,60.7
+area_residencia: Centro poblado,1328,15.2,35,14.2
+area_residencia: Rural disperso,2339,26.8,62,25.1
+subregion: Medio Sinu,3875,44.5,96,38.9
+subregion: San Jorge,1473,16.9,44,17.8
+subregion: Sabanas,1308,15.0,29,11.7
+subregion: Alto Sinu,818,9.4,26,10.5
+subregion: Costanera,621,7.1,27,10.9
+subregion: Bajo Sinu,616,7.1,25,10.1
+pertenencia_etnica: Otro/Ninguno,8371,96.0,231,93.5
+pertenencia_etnica: Indigena,294,3.4,11,4.5
+pertenencia_etnica: Negro/Mulato/Afrocolombiano,32,0.4,4,1.6
+pertenencia_etnica: ROM/Gitano,15,0.2,1,0.4
+pertenencia_etnica: Raizal,2,0.0,0,0.0
+pertenencia_etnica: Palenquero,2,0.0,0,0.0
+gestante (Si),5575,64.0,59,23.9
+hospitalizada (Si),8215,94.3,189,76.5

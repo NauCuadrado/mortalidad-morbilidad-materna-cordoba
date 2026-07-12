@@ -17,6 +17,7 @@ code/   Scripts de Python para depuración, indicadores y modelado
 
 ## Datos agregados (`data/`)
 
+- `Caracterizacion_sociodemografica_MME_MM.csv` — caracterización sociodemográfica y obstétrica básica agregada de los casos notificados de morbilidad materna extrema (evento 549) y muerte materna (evento 550): edad, régimen, área, subregión, etnia, gestante al notificar y hospitalización (corresponde a la Tabla 1 del manuscrito).
 - `Agregado_municipal_SIVIGILA_Cordoba.csv` — conteos municipales agregados de morbilidad materna extrema, muertes notificadas y letalidad.
 - `Tabla_RMM_temprana_municipal_Cordoba.csv` — razón de mortalidad materna temprana municipal (cruda y suavizada por bayes empírico espacial) e indicador local de asociación espacial.
 - `Ecologico_RMM_IPM_Cordoba.csv` — muertes tempranas, nacidos vivos, RMM municipal e índice de pobreza multidimensional (2018) para el análisis ecológico.
@@ -47,4 +48,4 @@ Depuración e ingesta (`process_sivigila.py`, `filtra_cordoba.py`, `dane_early_m
 
 ## Versión alineada con el envío a Public Health
 
-Las fuentes se separan estrictamente por función: DANE para la mortalidad poblacional (RMM, tendencia, comparación nacional, mapas, autocorrelación espacial y asociación con pobre
+Las fuentes se separan estrictamente por función: DANE para la mortalidad poblacional (RMM, tendencia, comparación nacional, mapas, autocorrelación espacial y asociación con pobreza) y SIVIGILA para la morbilidad materna extrema, el índice de mortalidad y la clasificación retrospectiva de eventos. El script `code/v2_refresh_spatial_ecologico.py` reproduce los análisis refinados: el índice de Moran se evalúa sobre tasas crudas (no sobre la superficie suavizada espacialmente, que infla el estadístico) y el modelo ecológico es Poisson con su dispersión y una sensibilidad excluyendo a Montería. El archivo `data/Ecologico_RMM_IPM_Cordoba.csv` usa las muertes maternas tempranas del DANE (numerador oficial, n=162), coherente con la RMM del cuerpo del artículo.

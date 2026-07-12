@@ -2,6 +2,14 @@
 
 Descripción de las columnas de las tablas agregadas de `data/`. Todas las tasas usan nacidos vivos del DANE como denominador.
 
+## `Caracterizacion_sociodemografica_MME_MM.csv`  (32 filas)
+
+- `caracteristica` — variable sociodemográfica u obstétrica y categoría (edad, régimen, área, subregión, etnia, gestante al notificar, hospitalización).
+- `MME_evento549_n` — frecuencia en los casos de morbilidad materna extrema (evento 549; total 8 716).
+- `MME_pct` — porcentaje sobre los 8 716 casos de morbilidad materna extrema.
+- `MM_evento550_n` — frecuencia en las muertes maternas notificadas (evento 550; total 247).
+- `MM_pct` — porcentaje sobre las 247 muertes maternas notificadas.
+
 ## `Agregado_municipal_SIVIGILA_Cordoba.csv`  (31 filas)
 
 - `cod_municipio` — Código DANE del municipio
